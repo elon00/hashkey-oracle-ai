@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "hashkey-oracle-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "HashKey Chain",
+        "PROJECT_TICKER": "HKORACLE"
+      },
+      "tools": [
+        {
+          "name": "verify_hkoracle_invariants",
+          "description": "Verifies deterministic invariants for HashKey Oracle AI on HashKey Chain."
+        },
+        {
+          "name": "execute_hkoracle_action",
+          "description": "Executes authenticated Oracle state transition."
+        }
+      ]
+    }
+  }
+}

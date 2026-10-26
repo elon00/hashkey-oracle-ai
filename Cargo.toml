@@ -1,0 +1,9 @@
+[package]
+name = "hashkey-oracle-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Sub-second high-frequency market data feed and PQC oracle"
+license = "MIT"
+
+[dependencies]
